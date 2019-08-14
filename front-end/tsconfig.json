@@ -1,11 +1,17 @@
+// NOTE: The lines that are commented out don't seem to be necessary, but I'm not 100% sure.
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "jsx": "react-native",
-    "lib": ["dom", "esnext"],
-    "moduleResolution": "node",
     "noEmit": true,
+    "lib": ["dom", "esnext"],
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "strict": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true
+    // "typeRoots": ["node_modules/@types", "custom_types"]
   }
+  // "types": ["react", "react-dom", "react-native", "node"],
+  // "exclude": ["coverage", "node_modules", "__mocks__"]
 }
